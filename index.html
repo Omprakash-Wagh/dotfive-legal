@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dotFive - Legal Documents</title>
+    <style>
+        :root {
+            --bg-color: #0F1923;
+            --text-color: #ECE8E1;
+            --accent-color: #FF4655;
+            --muted-color: #8B97A3;
+            --surface-color: #1F2E3A;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--surface-color);
+        }
+
+        h1 {
+            color: var(--text-color);
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        h1 span {
+            color: var(--accent-color);
+        }
+
+        h2 {
+            color: var(--accent-color);
+            font-size: 1.8rem;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h3 {
+            color: var(--text-color);
+            margin-top: 30px;
+        }
+
+        p, li {
+            color: var(--muted-color);
+            font-size: 1.1rem;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: var(--surface-color);
+            margin: 40px 0;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        nav {
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            padding: 10px 20px;
+            background-color: var(--surface-color);
+            border-radius: 4px;
+            color: var(--text-color);
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.2s;
+        }
+
+        nav a:hover {
+            background-color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid var(--surface-color);
+            color: var(--muted-color);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1><span>.</span>Five Legal</h1>
+        <p>Official Legal Documentation for the dotFive App</p>
+    </header>
+
+    <nav>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#terms">Terms of Service</a>
+        <a href="#eula">EULA</a>
+    </nav>
+
+    <!-- PRIVACY POLICY -->
+    <section id="privacy">
+        <h2>1. Privacy Policy</h2>
+        <p><strong>Effective Date:</strong> July 7, 2026</p>
+
+        <h3>1. Introduction</h3>
+        <p>Welcome to dotFive ("we," "our," or "us"). We respect your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your information when you use the dotFive mobile application.</p>
+
+        <h3>2. Information We Collect</h3>
+        <ul>
+            <li><strong>Account Information:</strong> When you sign up, we collect your email address and password. If you use Google Authentication, we receive your Google profile information (name, email address, profile picture).</li>
+            <li><strong>Game Data:</strong> We collect your Riot ID (IGN and Tagline) to fetch and display your game statistics and ranks.</li>
+            <li><strong>User-Generated Content:</strong> We collect and store chat messages, lobby details, and vouch/reputation data you generate within the app.</li>
+            <li><strong>Usage Data:</strong> We may collect device information, IP addresses, and app usage statistics to improve stability and performance.</li>
+        </ul>
+
+        <h3>3. How We Use Your Information</h3>
+        <p>We use your data to:</p>
+        <ul>
+            <li>Create and manage your account.</li>
+            <li>Facilitate matchmaking and lobby creation.</li>
+            <li>Display your game statistics to other users for team-building purposes.</li>
+            <li>Maintain our reputation and vouching system.</li>
+            <li>Enforce our Terms of Service and prevent abusive behavior.</li>
+        </ul>
+
+        <h3>4. Third-Party Services</h3>
+        <p>We share necessary information with trusted third-party service providers:</p>
+        <ul>
+            <li><strong>Supabase:</strong> Used for database hosting, backend infrastructure, and authentication.</li>
+            <li><strong>Google:</strong> Used for OAuth authentication.</li>
+            <li><strong>Henrik API:</strong> Used to fetch game statistics based on your Riot ID.</li>
+        </ul>
+        <p><em>Note: dotFive is not affiliated with, endorsed, or sponsored by Riot Games.</em></p>
+
+        <h3>5. Data Retention & Deletion</h3>
+        <p>We retain your data as long as your account is active. You may request the deletion of your account and associated data at any time by contacting us at <a href="mailto:dotfive.support@gmail.com">dotfive.support@gmail.com</a>, or by using the Delete Account option within the app profile settings.</p>
+
+        <h3>6. Contact Us</h3>
+        <p>If you have questions about this Privacy Policy, please contact us at <a href="mailto:dotfive.support@gmail.com">dotfive.support@gmail.com</a>.</p>
+    </section>
+
+    <hr>
+
+    <!-- TERMS OF SERVICE -->
+    <section id="terms">
+        <h2>2. Terms of Service (User Agreement)</h2>
+        <p><strong>Effective Date:</strong> July 7, 2026</p>
+
+        <h3>1. Acceptance of Terms</h3>
+        <p>By downloading, accessing, or using dotFive, you agree to be bound by these Terms of Service. If you do not agree, do not use the app.</p>
+
+        <h3>2. Eligibility</h3>
+        <p>You must be at least 13 years old to use dotFive. If you are under the age of majority in your jurisdiction, you must have permission from a parent or legal guardian.</p>
+
+        <h3>3. User Conduct and Content</h3>
+        <p>dotFive provides a platform for gamers to find teammates and communicate. You agree <strong>NOT</strong> to:</p>
+        <ul>
+            <li>Use the app for harassment, bullying, toxic behavior, or hate speech.</li>
+            <li>Share illegal, inappropriate, or explicit content in chats or lobbies.</li>
+            <li>Abuse the vouching/reputation system (e.g., vote manipulation).</li>
+            <li>Impersonate other users or use someone else's Riot ID without permission.</li>
+        </ul>
+        <p>We reserve the right to suspend or ban any account that violates these rules, without prior notice.</p>
+
+        <h3>4. Intellectual Property</h3>
+        <p>dotFive is an independent application. <strong>Riot Games, Valorant, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</strong> We make no claim to the intellectual property of Riot Games. Our app uses publicly accessible game data to facilitate player connections.</p>
+
+        <h3>5. Limitation of Liability</h3>
+        <p>dotFive is provided "as is" without warranties of any kind. We are not responsible for the actions of other users, offline interactions resulting from the app, or any loss of data.</p>
+
+        <h3>6. Changes to Terms</h3>
+        <p>We reserve the right to modify these Terms at any time. Continued use of the app constitutes acceptance of the new Terms.</p>
+    </section>
+
+    <hr>
+
+    <!-- EULA -->
+    <section id="eula">
+        <h2>3. End-User License Agreement (EULA)</h2>
+        <p><em>This document is particularly required by the Apple App Store and Google Play Store.</em></p>
+
+        <h3>1. Acknowledgment</h3>
+        <p>This EULA is concluded between you and dotFive, not with Apple Inc. or Google LLC. dotFive is solely responsible for the App and its content.</p>
+
+        <h3>2. Scope of License</h3>
+        <p>You are granted a non-transferable, non-exclusive license to use dotFive on devices that you own or control, in accordance with the Usage Rules set forth in the respective App Store Terms of Service.</p>
+
+        <h3>3. Maintenance and Support</h3>
+        <p>dotFive is solely responsible for providing maintenance and support services for the app. Apple and Google have no obligation whatsoever to furnish any maintenance or support services.</p>
+
+        <h3>4. Objectionable Content & Moderation</h3>
+        <p>dotFive has a zero-tolerance policy for objectionable content and abusive users.</p>
+        <ul>
+            <li>Users can report abusive behavior and block other users within the app.</li>
+            <li>We will act on abuse reports within 24 hours by reviewing the content and removing/banning offending users.</li>
+            <li>There is no tolerance for objectionable content or abusive users.</li>
+        </ul>
+
+        <h3>5. Developer Contact</h3>
+        <p>Any questions, complaints, or claims with respect to the app should be directed to:</p>
+        <ul>
+            <li><strong>Name:</strong> Omprakash Wagh</li>
+            <li><strong>Email:</strong> <a href="mailto:dotfive.support@gmail.com">dotfive.support@gmail.com</a></li>
+        </ul>
+    </section>
+
+    <div class="footer">
+        <p>&copy; 2026 dotFive. All rights reserved. Not affiliated with Riot Games.</p>
+    </div>
+</div>
+
+</body>
+</html>
